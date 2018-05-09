@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SYR | VIP</title>
+</head>
+<body>
+		<style>
+		body{ margin: 0;padding:0;font-family:Arial , Tahoma;
+
+			
+			background: url(https://gulfupload.com/i/00026/osm09cu5l098.jpg);
+			background-repeat: no-repeat;
+		    background-attachment: fixed;
+			background-position: center top;
+
+				 }
+		.header {
+
+			background: url(https://gulfupload.com/i/00026/u34l0sau38oz.gif) ;
+			color: #FFF;
+			font-weight: bolder;
+			font-size: 30px;
+			text-align:center;
+			padding:67px ;
+			background-repeat: no-repeat;
+		    background-attachment: fixed;
+			background-position: center top;
+
+
+		}
+
+		.navigation {
+
+			font-weight :bolder;
+			color:#fff;
+			text-align:center;
+			font-size:20px;
+			padding :5px 0;
+		}
+
+		.content {
+
+			font-weight :bolder;
+			color:#fff;
+			text-align:center;
+			font-size:20px;
+			padding :1px 0;
+		}
+
+		.intro {
+
+			font-weight :bolder;
+			color:#FF0000;
+			text-align:center;
+			font-size:20px;
+			padding :5px 0;
+		}
+
+		ul {list-style:none; padding :0; margin:0;}
+		ul li {display:inline-block; padding:10;}
+
+		.footer 
+		{
+			background :#000;
+			color :#fff;
+			text-align :Right;
+			
+
+		}
+
+
+
+		</style>
+
+		<div class="header">
+			Welcome to SYR | SERVERS
+		</div>
+		<div class="navigation">
+			<ul>
+			<h2>
+			<li>Game Panel</li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li>Bans</li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li>Stats</li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li>Servers</li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li>VIP</li>
+			</h2>
+
+			</ul>
+		</div>
+
+		<div class="intro">
+			
+			<h1>VIP Features</h1>
+		</div>
+
+		<div class="content">
+		
+			<p>VIP ICON</p>
+			<p>No self damage</p>
+			<p>Get grenades automatically</p>
+			<p>Auto Buy</p>
+			<p>Weapons Model</p>
+			<p>Trails</p>
+			<p>DissolveBody</p>
+			<p>Receive less damage by 15%</p>
+			<p>Increase the damage by 15%</p>
+			<p>Skins</p>
+			<p> +2500 $ evry round</p>
+			<p>Increase speed by 5%</p>
+			<p>AntiFlash</p>
+			<p>Kill Bouns</p>
+			<p>3 Throwing Knives</p>
+			<p>GrenadeTrails , With the possibility of color control </p>
+			<p>Color Smoke Grenade , With the possibility of color control</p>
+			<p>Tag ( .:[√IP]:.   )</p>
+			<p>Two grenades of each type</p>
+			<p>Can drop all weapon types</p>
+			<p>Tracen , Hide from other player</p>
+			<p>Free defuser kit</p>
+			<p>Quick defuse , defuse bomb in 1 sec</p>
+			<p>Quick plant , plant bomb in 1 sec</p>
+			<p>Allway have C4</p>
+			<p>No restriction weapon EXCEPT G3SG1 & SG550</p>
+			<p>No fall Damage</p>
+			<p>AutoSilencer USP & M4A1</p>
+			<p>Spawn_Effects</p>
+			<p>Endurance</p>
+			<p>ColoredFlash</p>
+			<p> Name , text and prefix color</p>
+			<p>The possibility of purchasing weapons from anywhere on the map before the expiry of the purchase period (players can buy the team from anywhere on the map if they are near the player
+			</p>
+			<p>JoinSound</p>
+			<p>You can choose between bunny hopping or two jumps or a high jump</p>
+			<p>wall paint</p>
+			<p>Fast Switch if weapon ammo empty</p>
+			<p>BoostLadder</p>
+		</div>
+		<div>   <form name="where">
+ <table border="0" width="200" cellspacing="0" cellpadding="3">
+    <td width="100%">
+<script language="JavaScript">
+
+/*
+Drop Down World Clock- By JavaScript Kit (http://www.javascriptkit.com)
+Portions of code by Kurt @ http://www.btinternet.com/~kurt.grigg/javascript
+This credit notice must stay intact
+Visit our site at http://www.star28.com/ for more code
+*/
+
+if (document.all||document.getElementById)
+document.write('<span id="worldclock" style="font:bold 16px Arial;"></span><br>')
+
+zone=0;
+isitlocal=true;
+ampm='';
+
+function updateclock(z){
+zone=z.options[z.selectedIndex].value;
+isitlocal=(z.options[0].selected)?true:false;
+}
+
+function WorldClock(){
+now=new Date();
+ofst=now.getTimezoneOffset()/60;
+secs=now.getSeconds();
+sec=-1.57+Math.PI*secs/30;
+mins=now.getMinutes();
+min=-1.57+Math.PI*mins/30;
+hr=(isitlocal)?now.getHours():(now.getHours() + parseInt(ofst)) + parseInt(zone);
+hrs=-1.575+Math.PI*hr/6+Math.PI*parseInt(now.getMinutes())/360;
+if (hr < 0) hr+=24;
+if (hr > 23) hr-=24;
+ampm = (hr > 11)?"PM":"AM";
+statusampm = ampm.toLowerCase();
+
+hr2 = hr;
+if (hr2 == 0) hr2=12;
+(hr2 < 13)?hr2:hr2 %= 12;
+if (hr2<10) hr2="0"+hr2
+
+var finaltime=hr2+':'+((mins < 10)?"0"+mins:mins)+':'+((secs < 10)?"0"+secs:secs)+' '+statusampm;
+
+if (document.all)
+worldclock.innerHTML=finaltime
+else if (document.getElementById)
+document.getElementById("worldclock").innerHTML=finaltime
+else if (document.layers){
+document.worldclockns.document.worldclockns2.document.write(finaltime)
+document.worldclockns.document.worldclockns2.document.close()
+}
+
+
+setTimeout('WorldClock()',1000);
+}
+
+window.onload=WorldClock
+//-->
+</script>
+
+<!--Place holder for NS4 only-->
+<ilayer id="worldclockns" width=100% height=35><layer id="worldclockns2" width=100% height=35 left=0 top=0 style="font:bold 16px Arial;"></layer></ilayer>
+</td></tr>
+</table>
+</form>
+</div>
+
+		<div class="footer">
+			Copyright &copy; 2018 All Right reserver to MIDOCSS&reg;
+		</div>
+
+
+</body>
+</html>
